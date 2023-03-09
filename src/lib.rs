@@ -1,4 +1,6 @@
 pub mod db;
 pub mod iterator;
 pub mod error;
-mod options;
+pub mod options;
+pub mod batch;
+pub mod snapshot;
